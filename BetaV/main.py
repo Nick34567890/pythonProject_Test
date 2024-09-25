@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QApplication
 import sys
-from MainPage import MyMainPage
+from BetaV.MainPage import MyMainPage
 
 app = QApplication(sys.argv)
 

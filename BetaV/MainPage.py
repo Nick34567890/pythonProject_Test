@@ -27,3 +27,5 @@ class MyMainPage(QDialog, Ui_Dialog):
 
     def switch_to_setting_Page(self):
         self.stackedWidget.setCurrentIndex(1)
+
+

@@ -27,7 +27,7 @@ class Ui_Dialog(object):
         Dialog.resize(990, 882)
         font = QFont()
         font.setFamilies([u"Myanmar Khyay"])
-        font.setPointSize(100)
+        font.setPointSize(20)
         Dialog.setFont(font)
         Dialog.setStyleSheet(u"background-color:\"#D9D9D9\";\n"
 "font-family: Myanmar Khyay;")
