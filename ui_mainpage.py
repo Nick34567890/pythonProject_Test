@@ -16,16 +16,15 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QDialog, QGridLayout, QHBoxLayout,
-    QLabel, QLineEdit, QPushButton, QRadioButton,
-    QSizePolicy, QSpacerItem, QStackedWidget, QVBoxLayout,
-    QWidget)
+    QLabel, QLineEdit, QPushButton, QSizePolicy,
+    QSpacerItem, QStackedWidget, QVBoxLayout, QWidget)
 import resource_rc
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         if not Dialog.objectName():
             Dialog.setObjectName(u"Dialog")
-        Dialog.resize(887, 882)
+        Dialog.resize(1136, 882)
         font = QFont()
         font.setFamilies([u"Myanmar Khyay"])
         font.setPointSize(100)
@@ -537,158 +536,6 @@ class Ui_Dialog(object):
 "    font-size: 13px;\n"
 "    text-align: center; /* Center text */\n"
 "}")
-        self.widget_9 = QWidget(self.Students)
-        self.widget_9.setObjectName(u"widget_9")
-        self.widget_9.setGeometry(QRect(230, 30, 161, 201))
-        self.widget_9.setStyleSheet(u"background-color: #8DB7F5;\n"
-"border-top-left-radius: 10px;          \n"
-"border-bottom-left-radius: 10px;       \n"
-"border-top-right-radius: 10px;         \n"
-"border-bottom-right-radius: 10px;      \n"
-"\n"
-"   ")
-        self.pushButton_12 = QPushButton(self.widget_9)
-        self.pushButton_12.setObjectName(u"pushButton_12")
-        self.pushButton_12.setGeometry(QRect(10, 120, 141, 50))
-        self.pushButton_12.setMinimumSize(QSize(50, 50))
-        self.pushButton_12.setMaximumSize(QSize(10000, 10000))
-        self.pushButton_12.setFont(font4)
-        self.pushButton_12.setAutoFillBackground(False)
-        self.pushButton_12.setStyleSheet(u"QPushButton {\n"
-"    color: black;\n"
-"    padding: 10px;\n"
-"    font-size: 13px;\n"
-"    text-align: center; /* Center text */\n"
-"}")
-        self.pushButton_13 = QPushButton(self.widget_9)
-        self.pushButton_13.setObjectName(u"pushButton_13")
-        self.pushButton_13.setGeometry(QRect(30, 30, 101, 81))
-        self.pushButton_13.setIcon(icon7)
-        self.pushButton_13.setIconSize(QSize(80, 80))
-        self.pushButton_14 = QPushButton(self.widget_9)
-        self.pushButton_14.setObjectName(u"pushButton_14")
-        self.pushButton_14.setGeometry(QRect(40, 160, 75, 24))
-        self.pushButton_14.setStyleSheet(u"QPushButton {\n"
-"    color: black;\n"
-"    border: 1px solid #ff0000;\n"
-"    padding: 5px;\n"
-"    font-size: 13px;\n"
-"    text-align: center; /* Center text */\n"
-"}")
-        self.widget_10 = QWidget(self.Students)
-        self.widget_10.setObjectName(u"widget_10")
-        self.widget_10.setGeometry(QRect(430, 30, 161, 201))
-        self.widget_10.setStyleSheet(u"background-color: #8DB7F5;\n"
-"border-top-left-radius: 10px;          \n"
-"border-bottom-left-radius: 10px;       \n"
-"border-top-right-radius: 10px;         \n"
-"border-bottom-right-radius: 10px;      \n"
-"\n"
-"   ")
-        self.pushButton_18 = QPushButton(self.widget_10)
-        self.pushButton_18.setObjectName(u"pushButton_18")
-        self.pushButton_18.setGeometry(QRect(10, 120, 141, 50))
-        self.pushButton_18.setMinimumSize(QSize(50, 50))
-        self.pushButton_18.setMaximumSize(QSize(10000, 10000))
-        self.pushButton_18.setFont(font4)
-        self.pushButton_18.setAutoFillBackground(False)
-        self.pushButton_18.setStyleSheet(u"QPushButton {\n"
-"    color: black;\n"
-"    padding: 10px;\n"
-"    font-size: 13px;\n"
-"    text-align: center; /* Center text */\n"
-"}")
-        self.pushButton_19 = QPushButton(self.widget_10)
-        self.pushButton_19.setObjectName(u"pushButton_19")
-        self.pushButton_19.setGeometry(QRect(30, 30, 101, 81))
-        self.pushButton_19.setIcon(icon7)
-        self.pushButton_19.setIconSize(QSize(80, 80))
-        self.pushButton_20 = QPushButton(self.widget_10)
-        self.pushButton_20.setObjectName(u"pushButton_20")
-        self.pushButton_20.setGeometry(QRect(40, 160, 75, 24))
-        self.pushButton_20.setStyleSheet(u"QPushButton {\n"
-"    color: black;\n"
-"    border: 1px solid #ff0000;\n"
-"    padding: 5px;\n"
-"    font-size: 13px;\n"
-"    text-align: center; /* Center text */\n"
-"}")
-        self.widget_11 = QWidget(self.Students)
-        self.widget_11.setObjectName(u"widget_11")
-        self.widget_11.setGeometry(QRect(30, 270, 161, 201))
-        self.widget_11.setStyleSheet(u"background-color: #8DB7F5;\n"
-"border-top-left-radius: 10px;          \n"
-"border-bottom-left-radius: 10px;       \n"
-"border-top-right-radius: 10px;         \n"
-"border-bottom-right-radius: 10px;      \n"
-"\n"
-"   ")
-        self.pushButton_21 = QPushButton(self.widget_11)
-        self.pushButton_21.setObjectName(u"pushButton_21")
-        self.pushButton_21.setGeometry(QRect(10, 120, 141, 50))
-        self.pushButton_21.setMinimumSize(QSize(50, 50))
-        self.pushButton_21.setMaximumSize(QSize(10000, 10000))
-        self.pushButton_21.setFont(font4)
-        self.pushButton_21.setAutoFillBackground(False)
-        self.pushButton_21.setStyleSheet(u"QPushButton {\n"
-"    color: black;\n"
-"    padding: 10px;\n"
-"    font-size: 13px;\n"
-"    text-align: center; /* Center text */\n"
-"}")
-        self.pushButton_22 = QPushButton(self.widget_11)
-        self.pushButton_22.setObjectName(u"pushButton_22")
-        self.pushButton_22.setGeometry(QRect(30, 30, 101, 81))
-        self.pushButton_22.setIcon(icon7)
-        self.pushButton_22.setIconSize(QSize(80, 80))
-        self.pushButton_23 = QPushButton(self.widget_11)
-        self.pushButton_23.setObjectName(u"pushButton_23")
-        self.pushButton_23.setGeometry(QRect(40, 160, 75, 24))
-        self.pushButton_23.setStyleSheet(u"QPushButton {\n"
-"    color: black;\n"
-"    border: 1px solid #ff0000;\n"
-"    padding: 5px;\n"
-"    font-size: 13px;\n"
-"    text-align: center; /* Center text */\n"
-"}")
-        self.widget_12 = QWidget(self.Students)
-        self.widget_12.setObjectName(u"widget_12")
-        self.widget_12.setGeometry(QRect(230, 270, 161, 201))
-        self.widget_12.setStyleSheet(u"background-color: #8DB7F5;\n"
-"border-top-left-radius: 10px;          \n"
-"border-bottom-left-radius: 10px;       \n"
-"border-top-right-radius: 10px;         \n"
-"border-bottom-right-radius: 10px;      \n"
-"\n"
-"   ")
-        self.pushButton_24 = QPushButton(self.widget_12)
-        self.pushButton_24.setObjectName(u"pushButton_24")
-        self.pushButton_24.setGeometry(QRect(10, 120, 141, 50))
-        self.pushButton_24.setMinimumSize(QSize(50, 50))
-        self.pushButton_24.setMaximumSize(QSize(10000, 10000))
-        self.pushButton_24.setFont(font4)
-        self.pushButton_24.setAutoFillBackground(False)
-        self.pushButton_24.setStyleSheet(u"QPushButton {\n"
-"    color: black;\n"
-"    padding: 10px;\n"
-"    font-size: 13px;\n"
-"    text-align: center; /* Center text */\n"
-"}")
-        self.pushButton_25 = QPushButton(self.widget_12)
-        self.pushButton_25.setObjectName(u"pushButton_25")
-        self.pushButton_25.setGeometry(QRect(30, 30, 101, 81))
-        self.pushButton_25.setIcon(icon7)
-        self.pushButton_25.setIconSize(QSize(80, 80))
-        self.pushButton_26 = QPushButton(self.widget_12)
-        self.pushButton_26.setObjectName(u"pushButton_26")
-        self.pushButton_26.setGeometry(QRect(40, 160, 75, 24))
-        self.pushButton_26.setStyleSheet(u"QPushButton {\n"
-"    color: black;\n"
-"    border: 1px solid #ff0000;\n"
-"    padding: 5px;\n"
-"    font-size: 13px;\n"
-"    text-align: center; /* Center text */\n"
-"}")
         self.stackedWidget.addWidget(self.Classe_PSA)
         self.Class_MD = QWidget()
         self.Class_MD.setObjectName(u"Class_MD")
@@ -785,7 +632,7 @@ class Ui_Dialog(object):
         self.pushButton_62 = QPushButton(self.widget_13)
         self.pushButton_62.setObjectName(u"pushButton_62")
         self.pushButton_62.setEnabled(True)
-        self.pushButton_62.setGeometry(QRect(360, 250, 141, 51))
+        self.pushButton_62.setGeometry(QRect(260, 250, 141, 51))
         font6 = QFont()
         font6.setFamilies([u"Myanmar Khyay"])
         font6.setPointSize(12)
@@ -798,7 +645,6 @@ class Ui_Dialog(object):
 "color: #ffffff;\n"
 "\n"
 "")
-
         self.pushButton_64 = QPushButton(self.widget_13)
         self.pushButton_64.setObjectName(u"pushButton_64")
         self.pushButton_64.setGeometry(QRect(30, 30, 75, 24))
@@ -828,7 +674,7 @@ class Ui_Dialog(object):
         self.classes_2.toggled.connect(self.classes_1.setChecked)
         self.setting_2.toggled.connect(self.setting_1.setChecked)
 
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(5)
 
 
         QMetaObject.connectSlotsByName(Dialog)
@@ -859,26 +705,19 @@ class Ui_Dialog(object):
         self.pushButton_6.setText(QCoreApplication.translate("Dialog", u"Plesca Denis", None))
         self.pushButton_3.setText("")
         self.pushButton_7.setText(QCoreApplication.translate("Dialog", u"50%", None))
-        self.pushButton_12.setText(QCoreApplication.translate("Dialog", u"Burduja Adrian", None))
-        self.pushButton_13.setText("")
-        self.pushButton_14.setText(QCoreApplication.translate("Dialog", u"40%", None))
-        self.pushButton_18.setText(QCoreApplication.translate("Dialog", u"Tugui Artur", None))
-        self.pushButton_19.setText("")
-        self.pushButton_20.setText(QCoreApplication.translate("Dialog", u"70%", None))
-        self.pushButton_21.setText(QCoreApplication.translate("Dialog", u"Gancear Nichita ", None))
-        self.pushButton_22.setText("")
-        self.pushButton_23.setText(QCoreApplication.translate("Dialog", u"50%", None))
-        self.pushButton_24.setText(QCoreApplication.translate("Dialog", u"Cerchez Victoria", None))
-        self.pushButton_25.setText("")
-        self.pushButton_26.setText(QCoreApplication.translate("Dialog", u"65%", None))
         self.label_2.setText(QCoreApplication.translate("Dialog", u"Class Discrete Mathematics", None))
         self.label_4.setText(QCoreApplication.translate("Dialog", u"Name:", None))
         self.label_13.setText(QCoreApplication.translate("Dialog", u"Age:", None))
         self.label_14.setText(QCoreApplication.translate("Dialog", u"Year:", None))
         self.label_15.setText(QCoreApplication.translate("Dialog", u"Gender:", None))
         self.label_16.setText(QCoreApplication.translate("Dialog", u"Student ID:", None))
+        self.pushButton_57.setText(QCoreApplication.translate("Dialog", u"Plesca Denis", None))
+        self.pushButton_58.setText(QCoreApplication.translate("Dialog", u"20", None))
+        self.pushButton_59.setText(QCoreApplication.translate("Dialog", u"2004", None))
+        self.pushButton_60.setText(QCoreApplication.translate("Dialog", u"Male", None))
+        self.pushButton_61.setText(QCoreApplication.translate("Dialog", u"33441", None))
+        self.pushButton_62.setText(QCoreApplication.translate("Dialog", u"Present", None))
         self.pushButton_64.setText(QCoreApplication.translate("Dialog", u"Back", None))
-
         self.label_6.setText(QCoreApplication.translate("Dialog", u"Classes", None))
     # retranslateUi
 
