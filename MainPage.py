@@ -70,7 +70,7 @@ class MyMainPage(QDialog, Ui_Dialog):
 "border-top-right-radius: 10px;         \n"
 "border-bottom-right-radius: 10px;      \n"
 "\n"
-"   ")
+"   ")\
 
             button.setGeometry(QRect(30+(width+padding)*index, 30+(height + spacing)*row, width, height))
             index += 1
